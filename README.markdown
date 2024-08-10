@@ -1,3 +1,12 @@
+This is a fork of the venerable and sadly unmaintained Blogofile that
+adds a Docker image which allows us to run Blogofile more than ten
+years after its last development.  To use the Docker image:
+
+```bash
+docker build -t blogofile .
+./run-blogofile.sh --help
+```
+
 Blogofile is a simple blog engine that requires no database and no
 special hosting environment. You customize a set of templates with Mako,
 create posts in a markup language like Textile, or Markdown, (or even

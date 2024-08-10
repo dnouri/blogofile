@@ -1,3 +1,13 @@
+This is a fork of the venerable and sadly unmaintained Blogofile that
+adds a Docker image which allows us to run Blogofile more than ten
+years after its last development.  To use the Docker image::
+
+  sudo docker build -t blogofile .
+  sudo ./run-blogofile.sh --help
+  
+Original README
+---------------
+
 Blogofile is a static website compiler that lets you use various template
 libraries (Mako, Jinja2),
 and various markup languages (reStructuredText, Markdown, Textile)
